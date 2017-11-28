@@ -8,6 +8,7 @@ input{
   font-size: 24px;
   border-radius: 5%;
   padding: 10px;
+  box-shadow: 10px 10px 10px #888888;
 }
 
 #lightgallery {
@@ -16,15 +17,17 @@ input{
   max-width: 1000px;
   align-items: center;
   margin: auto;
-  justify-content: space-around;
+
 }
 
 img {
-  padding: 25px;
+  margin: 25px;
   display: " ";
+  box-shadow: 10px 10px 10px #888888;
+  border-radius: 5%;
 }
 
-/* lightgallery stylish */
+/*--------------------lightgallery stylish------------------------------------*/
 
 .lg-toolbar .lg-close:after {
   content: "⤬";
@@ -47,7 +50,7 @@ img {
 }
 
 
-/*----------------------------Media-Queries-----------------------------------------*/
+/*----------------------------Media-Queries-----------------------------------*/
 
 @media(max-width: 1017px){
 
@@ -61,7 +64,9 @@ img {
     height: 200px;
   }
 
-
+  #lightgallery{
+    justify-content: center;
+  }
 
 
 }
