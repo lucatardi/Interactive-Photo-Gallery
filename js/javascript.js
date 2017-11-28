@@ -2,6 +2,6 @@ $(document).ready(function() {
     $("#lightgallery").lightGallery();
 });
 
-$("#lightgallery").lightGallery({
-  
+$("#lightGallery").lightGallery({
+  mode: "lg-slide-circular"
 });
