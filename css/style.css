@@ -11,10 +11,12 @@ input{
 }
 
 #lightgallery {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: auto;
-  margin: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
 }
 
 img {
@@ -42,4 +44,24 @@ img {
 
 .lg-sub-html {
   bottom: 30px;
+}
+
+
+/*----------------------------Media-Queries-----------------------------------------*/
+
+@media(max-width: 1017px){
+
+  input{
+    font-size: 12px;
+    width: 90%;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+
+
+
 }

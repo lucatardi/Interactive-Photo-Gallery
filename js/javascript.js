@@ -11,12 +11,12 @@ $('#search').on("keyup change", function() {
   var word = input.value.toUpperCase();
   var linkA = document.getElementsByClassName("images");
   for(var count = 0; count < linkA.length; count++) {
-    image = linkA[count].children();
-    if (image.alt.toUpperCase().indexOf(word) === 0) {
-      $(linkA[count].children()).attr("display","none");
+    image = linkA[count].children;
+    if (image[0].alt.toUpperCase().indexOf(word) === -1) {
+      $(image[0]).hide();
     }
     else {
-      $(linkA[count].children()).attr("display"," ");
+      $(image[0]).show();
     }
   }
 });
