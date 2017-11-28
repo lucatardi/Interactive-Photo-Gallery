@@ -7,9 +7,9 @@ $("#lightgallery").lightGallery({
 });
 
 $('#search').on("keyup change", function() {
-  input = document.getElementByID("search");
-  word = input.value.toUpperCase();
-  linkA = document.getElementByClassName("images");
+  var input = document.getElementByID("search");
+  var word = input.value.toUpperCase();
+  var linkA = document.getElementByClassName("images");
   for(var count = 0; count < linkA.length; count++) {
     image = linkA[count].children();
     if (image.alt.toUpperCase().indexOf(word) === 0) {
