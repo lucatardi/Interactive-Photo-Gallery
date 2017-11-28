@@ -19,4 +19,27 @@ input{
 
 img {
   padding: 25px;
+  display: " ";
+}
+
+/* lightgallery stylish */
+
+.lg-toolbar .lg-close:after {
+  content: "⤬";
+}
+
+.lg-toolbar .lg-download:after {
+  content: "⬇";
+}
+
+.lg-actions .lg-prev:after {
+  content: "◄";
+}
+
+.lg-actions .lg-next:before {
+  content: "►";
+}
+
+.lg-sub-html {
+  bottom: 30px;
 }

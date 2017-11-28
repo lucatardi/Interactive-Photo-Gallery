@@ -47,13 +47,13 @@
   right: 20px;
 }
 .lg-actions .lg-next:before {
-  content: "\e095";
+  content: "";
 }
 .lg-actions .lg-prev {
   left: 20px;
 }
 .lg-actions .lg-prev:after {
-  content: "\e094";
+  content: "";
 }
 
 @-webkit-keyframes lg-right-end {
@@ -185,10 +185,10 @@
   color: #FFF;
 }
 .lg-toolbar .lg-close:after {
-  content: "\e070";
+  content: "";
 }
 .lg-toolbar .lg-download:after {
-  content: "\e0f2";
+  content: "";
 }
 
 .lg-sub-html {
