@@ -1,6 +1,19 @@
+body {
+  background-image: url("../photos/wallpaperpuzzle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  margin: 10px;
+  color: #6666ff;
+}
+
 header{
   text-align: center;
-  padding: 20px 20px 0;
+  padding: 0 20px;
 }
 
 input{
@@ -26,6 +39,14 @@ img {
   box-shadow: 10px 10px 10px #888888;
   border-radius: 5%;
 }
+
+img:hover {
+  border: 3px solid #6666ff;
+  width: 190px;
+  height: 190px;
+}
+
+
 
 /*--------------------lightgallery stylish------------------------------------*/
 
@@ -53,6 +74,10 @@ img {
 /*----------------------------Media-Queries-----------------------------------*/
 
 @media(max-width: 1017px){
+
+  h1 {
+    font-size: 20px;
+  }
 
   input{
     font-size: 12px;
